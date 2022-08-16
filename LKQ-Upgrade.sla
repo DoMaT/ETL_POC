@@ -1,0 +1,89 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-postgresdatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "Prowess_POC"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "LKQ-Upgrade"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "elit_lkq_im_upgrade_test"
+                    },
+                    "hostname": {
+                        "value": "elit-lkq-inventory-upgrade-test.ccajjsw8dkuh.eu-west-1.rds.amazonaws.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "org.postgresql.Driver"
+                    },
+                    "password": {
+                        "fp": "1e692596811ca128fbd9348498e7415cc565e040011243b1784fc567932b53ea",
+                        "key": "account-cloud-managed-62da43889e5be6c0c6e69057-2022-07-22T06:28:32-351504+00:00",
+                        "sym_iv": "Mnd5WuGmAbhQv6C/DslIsg==",
+                        "sym_key": "bQ6YPIDqRgJ2u2kAS1Au75mS3SztrAF/SCw51kOEmMhAEgxkPOlCif0wPZCViiEnhe+3Rl88D37MwQy4v6cTtPdpQCAajb/uYaLrL9Z0fbo4Sd4HNbyiuB0h3gA7y6xRQwICU2nNZVpR51fdWpNCp5v8UmoG2AyAsrsw4ooGslqctDcBpwee5UwbRxhyIYT6UPpPrdaV7/KVerujRWkApQzoNN+9x3M+z54CEHfALcA03uuJZ+z5ftmYNq2h3zSx4B91xzmIB7KZTDawZXbQDlDybWsRPgBEa6COq3mcJyPNsn+e4q6ssuHpbcunlf3DQ9G+d+RWU8DzLF5adPvkvg==",
+                        "value": "6Nk6/ysx3YHw2CjzdyR1dTlAqKb3OP1eKJSpwXtulgg="
+                    },
+                    "portNumber": {
+                        "value": 5432
+                    },
+                    "username": {
+                        "value": "elit_lkq_im_upgrade_test"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

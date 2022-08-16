@@ -1,0 +1,24 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xsd:element name="REPLACEMENTImp" type="REPLACEMENTImpType">
+    <xsd:annotation>
+      <xsd:documentation>GIM - item replacement</xsd:documentation>
+    </xsd:annotation>
+  </xsd:element>
+  <xsd:complexType name="REPLACEMENTImpType">
+    <xsd:sequence>
+      <xsd:element ref="REPLACING_ITEM_CODE" type="xsd:string"/>
+      <xsd:element ref="REPLACING_PREFIX" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="REPLACED_ITEM_CODE" type="xsd:string"/>
+      <xsd:element ref="REPLACED_PREFIX" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="WAREHOUSE_CODE" type="xsd:string"/>
+      <xsd:element ref="WAREHOUSE_GROUP_CODE" type="xsd:string"/>
+      <xsd:element ref="EXTRACTION_DATE" type="xsd:string"/>
+      <xsd:element ref="INHERIT_STOCK" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="INHERIT_MULTIPLIER" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="DESCRIPTION" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="FREE_TEXT_1" minOccurs="0" type="xsd:string"/>
+      <xsd:element ref="FREE_TEXT_2" minOccurs="0" type="xsd:string"/>     
+      <xsd:element ref="BATCH_INFO" minOccurs="0" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

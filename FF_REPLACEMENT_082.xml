@@ -1,0 +1,56 @@
+<schema tag="T_DATA_082" strict="no" type="delimited" recorddelimiter="&#13;&#10;" fielddelimiter="|" skip-when-empty="yes">
+	<!-- Transformation schema based on SCP file specification for Product interface file v8.2. -->
+	<container tag="CNTROLEAREA">
+		<container tag="BSR">
+			<field tag="VERB" value="SyncReplacement" />
+		</container>
+		<container tag="SENDER">
+			<!-- This is the same value as it has been setup in the batch interface	configuration. -->
+			<field tag="LOGICALID" refid="BHSYSTID" />
+			<!-- This is the same value as it has been setup in the batch interface	configuration. -->
+			<field tag="TASK" refid="BHCOMPAR5" />
+			<!-- This value points to the XPath where the TrSCPTTableInsert performs the iteration. -->
+			<field tag="COMPONENT" value="/T_DATA_082/DATAAREA/T_DATA" />
+			<!--
+				This value is retrieved from the batch record created when the file is encountered. This value is used internally to link the
+				record in the SCP database (transaction and / or validation table).
+			-->
+			<field tag="REFERENCEID" refid="BRID" />
+		</container>
+	</container>
+	<container tag="DATAAREA">
+		<container tag="T_DATA">
+			<!--
+				The propagate value determines how many lines should be put into each message consumed by the BPE. Large messages are resource
+				intensive and may cause bottlenecks for other concurrent processes. Too small messages casues too much overhead.
+			-->
+			<record tag="ROW" propagate="100">
+				<field tag="ROW_TYPE" />
+				<field tag="REPLACING_ITEM_CODE" />
+				<field tag="REPLACING_PREFIX" />
+				<field tag="REPLACED_ITEM_CODE" />
+				<field tag="REPLACED_PREFIX" />
+				<field tag="WAREHOUSE_CODE" />
+				<field tag="WAREHOUSE_GROUP_CODE" />
+				<field tag="EXTRACTION_DATE" />
+				<field tag="INHERIT_STOCK" />
+				<field tag="INHERIT_MULTIPLIER" />
+				<field tag="DESCRIPTION" />
+				<field tag="FREE_TEXT_1" />
+				<field tag="FREE_TEXT_2" />
+				<!-- Batch interface information, used to tag validation messages with iteration and line number. -->
+				<container tag="BATCH_INFO">
+					<field tag="ITERATION" refid="number-of-iterations" />
+					<field tag="RECORD" refid="record-number" />
+					<field tag="TOTAL" refid="total-number-of-records" />
+					<field tag="LINE" refid="line-number" />
+				</container>
+			</record>
+		</container>
+		<container tag="USERDATA">
+			<field tag="T_TABLE" value="t_replacement" />
+			<field tag="CONFIG" refid="config-path" />
+			<field tag="INPUT" refid="input-file" />
+		</container>
+	</container>
+</schema>

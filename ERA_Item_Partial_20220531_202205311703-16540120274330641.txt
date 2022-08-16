@@ -1,0 +1,6 @@
+M|330336||303|ERA|20220531T1503|||001147|20060719||3.27|EUR|||Apreutesei|||||PZ|||Y||||||||||Yes|Active|ESP|ERA|G||||||||||||
+M|330336||400|ERA|20220531T1503|||001147|20060719||3.27|EUR|||Apreutesei|||||PZ|||Y||||||||||Yes|Active|ESP|ERA|G||||||||||||
+M|440440||303|ERA|20220531T1504||||20150129||60.87|EUR||||||||PZ|||Y||||||||||No|Active||ERA|A||||||||||||
+M|440440||400|ERA|20220531T1504||||20150129||60.87|EUR||||||||PZ|||Y||||||||||No|Active||ERA|A||||||||||||
+M|880006||303|ERA|20220531T1516|||000624|20050308||9.25|EUR|||Prodax|||||PZ|576||Y|Ricambi per Macchine Rotanti|IMPIANTO ACCENSIONE||||||||No|Active|ITA|ERA|A||||||||||||
+M|880006||400|ERA|20220531T1516|||000624|20050308||9.25|EUR|||Prodax|||||PZ|576||Y|Ricambi per Macchine Rotanti|IMPIANTO ACCENSIONE||||||||No|Active|ITA|ERA|A||||||||||||
