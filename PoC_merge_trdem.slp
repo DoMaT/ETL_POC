@@ -1,0 +1,1786 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link105": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "mateusz.szczesniak@syncron.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {},
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "6b295318-c09c-b05f-920c-e6a6f1b44ac0_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "dx_int": null,
+                "dy_int": null,
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "dx_int": null,
+                "dy_int": null,
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "d068489d-99e7-d03d-03ce-e77dcb2ef668_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            }
+        },
+        "notes": {
+            "fe3f3c14-6391-44e3-a8cb-4176de91dcd9": {
+                "content": "Transactional Demand merge PoC\n\ntwo files are dropped - these are excerpts from the real zodiac files, 10 lines each.\n\nI haven't checked thoroughly the fields but it looks the not-repair file has three columns more than the repair.\n\nI will just try to insert some dummy fields in the repair file, where I think free texts are.\n\nAlso, the files do not seem to follow the standard specifications and it seems not all fields are documented here https://syncron.wiki/display/ZASIEXT/Transactional+demand+file+-+flat+file+format ",
+                "created": "2022-08-10T11:42:30.282Z",
+                "creator": "Mateusz Szcze\u015bniak",
+                "height": "204px",
+                "width": "1056px",
+                "x": 55.02890811530076,
+                "y": 7.49839327024213
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "charset": {
+                        "value": "UTF-8"
+                    },
+                    "delimiter": {
+                        "expression": false,
+                        "value": "|"
+                    },
+                    "errorPolicy": {
+                        "value": "Default"
+                    },
+                    "escapeChar": {
+                        "expression": false,
+                        "value": "\\"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "newlineCharacter": {
+                        "value": "LF"
+                    },
+                    "outputHeader": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": null
+                                },
+                                "targetPath": {
+                                    "value": null
+                                }
+                            }
+                        ]
+                    },
+                    "quoteCharacter": {
+                        "expression": false,
+                        "value": "\""
+                    },
+                    "quoteMode": {
+                        "value": "NONE"
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "userDefinedHeader": {
+                        "value": []
+                    },
+                    "writeBOM": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-csvparser",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Parser"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "charset": {
+                        "value": "Auto BOM detect"
+                    },
+                    "columnList": {
+                        "value": [
+                            {
+                                "columns": {
+                                    "value": "Row_type"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Item_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Prefix"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "WH_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "WHG_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Sales_ord_no"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Sales_ord_line_no"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Extraction_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Requested_qty"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Delivered_qty"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Demand_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Customer_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_fcst"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_sl"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_class"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "stock_at_dmd_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft1"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft2"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft3"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft4"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft5"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_sv_kpi"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "demand_stream"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "direct_demand"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "some_field1"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "order_date"
+                                }
+                            }
+                        ]
+                    },
+                    "containsHeader": {
+                        "value": false
+                    },
+                    "delimiter": {
+                        "expression": false,
+                        "value": "|"
+                    },
+                    "errorPolicy": {
+                        "value": "Both"
+                    },
+                    "escapeChar": {
+                        "expression": false,
+                        "value": "\\"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "ignoreEmptyData": {
+                        "value": true
+                    },
+                    "preserveSurroundingSpaces": {
+                        "expression": false,
+                        "value": false
+                    },
+                    "quoteCharacter": {
+                        "expression": false,
+                        "value": "\""
+                    },
+                    "skipLines": {
+                        "value": 0
+                    },
+                    "validateHeaders": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-csvparser",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Parser"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "charset": {
+                        "value": "Auto BOM detect"
+                    },
+                    "columnList": {
+                        "value": [
+                            {
+                                "columns": {
+                                    "value": "Row_type"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Item_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Prefix"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "WH_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "WHG_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Sales_ord_no"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Sales_ord_line_no"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Extraction_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Requested_qty"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Delivered_qty"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Demand_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "Customer_code"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_fcst"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_sl"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_class"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "stock_at_dmd_date"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft1"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft2"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft3"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft4"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "ft5"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "use_sv_kpi"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "demand_stream"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "direct_demand"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "some_field1"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "some_field2"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "some_field3"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "some_field4"
+                                }
+                            },
+                            {
+                                "columns": {
+                                    "value": "order_date"
+                                }
+                            }
+                        ]
+                    },
+                    "containsHeader": {
+                        "value": false
+                    },
+                    "delimiter": {
+                        "expression": false,
+                        "value": "|"
+                    },
+                    "errorPolicy": {
+                        "value": "Both"
+                    },
+                    "escapeChar": {
+                        "expression": false,
+                        "value": "\\"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "ignoreEmptyData": {
+                        "value": true
+                    },
+                    "preserveSurroundingSpaces": {
+                        "expression": false,
+                        "value": false
+                    },
+                    "quoteCharacter": {
+                        "expression": false,
+                        "value": "\""
+                    },
+                    "skipLines": {
+                        "value": 0
+                    },
+                    "validateHeaders": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Row_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "Row_type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Item_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "Item_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Prefix"
+                                        },
+                                        "targetPath": {
+                                            "value": "Prefix"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$WH_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "WH_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$WHG_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "WHG_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Sales_ord_no"
+                                        },
+                                        "targetPath": {
+                                            "value": "Sales_ord_no"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Sales_ord_line_no"
+                                        },
+                                        "targetPath": {
+                                            "value": "Sales_ord_line_no"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Extraction_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "Extraction_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Requested_qty"
+                                        },
+                                        "targetPath": {
+                                            "value": "Requested_qty"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Delivered_qty"
+                                        },
+                                        "targetPath": {
+                                            "value": "Delivered_qty"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Demand_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "Demand_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Customer_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "Customer_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_fcst"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_fcst"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_sl"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_sl"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_class"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_class"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$stock_at_dmd_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "stock_at_dmd_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft1"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft2"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft3"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft4"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft4"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft5"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft5"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_sv_kpi"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_sv_kpi"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$demand_stream"
+                                        },
+                                        "targetPath": {
+                                            "value": "demand_strean"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$direct_demand"
+                                        },
+                                        "targetPath": {
+                                            "value": "direct_demand"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$some_field1"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$some_field2"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$some_field3"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$some_field4"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field4"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$order_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "order_date"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Row_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "Row_type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Item_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "Item_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Prefix"
+                                        },
+                                        "targetPath": {
+                                            "value": "Prefix"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$WH_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "WH_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$WHG_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "WHG_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Sales_ord_no"
+                                        },
+                                        "targetPath": {
+                                            "value": "Sales_ord_no"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Sales_ord_line_no"
+                                        },
+                                        "targetPath": {
+                                            "value": "Sales_ord_line_no"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Extraction_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "Extraction_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Requested_qty"
+                                        },
+                                        "targetPath": {
+                                            "value": "Requested_qty"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Delivered_qty"
+                                        },
+                                        "targetPath": {
+                                            "value": "Delivered_qty"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Demand_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "Demand_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Customer_code"
+                                        },
+                                        "targetPath": {
+                                            "value": "Customer_code"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_fcst"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_fcst"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_sl"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_sl"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_class"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_class"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$stock_at_dmd_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "stock_at_dmd_date"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft1"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft2"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft3"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft4"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft4"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$ft5"
+                                        },
+                                        "targetPath": {
+                                            "value": "ft5"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$use_sv_kpi"
+                                        },
+                                        "targetPath": {
+                                            "value": "use_sv_kpi"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$demand_stream"
+                                        },
+                                        "targetPath": {
+                                            "value": "demand_strean"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$direct_demand"
+                                        },
+                                        "targetPath": {
+                                            "value": "direct_demand"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$some_field1"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "null"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "null"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field3"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "null"
+                                        },
+                                        "targetPath": {
+                                            "value": "some_field4"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$order_date"
+                                        },
+                                        "targetPath": {
+                                            "value": "order_date"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader - tr dem"
+                    },
+                    "notes": {}
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "tr_dem_merge.txt"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader - tr dem repair"
+                    },
+                    "notes": {}
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "tr_dem_rep_merge.txt"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {},
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "cannedAcls": {
+                        "value": "None"
+                    },
+                    "charset": {
+                        "value": "UTF-8"
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "delimiter": {
+                        "expression": false,
+                        "value": ","
+                    },
+                    "errorPolicy": {
+                        "value": "Default"
+                    },
+                    "escapeChar": {
+                        "expression": false,
+                        "value": "\\"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Execute only"
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "all_demand_merged.txt"
+                    },
+                    "flushIntervalKb": {
+                        "value": -1
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "newlineCharacter": {
+                        "value": "LF"
+                    },
+                    "outputHeader": {
+                        "value": []
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "quoteCharacter": {
+                        "expression": false,
+                        "value": "\""
+                    },
+                    "quoteMode": {
+                        "value": "ALL"
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "userDefinedHeader": {
+                        "value": []
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeBOM": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}
