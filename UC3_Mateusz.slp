@@ -3,21 +3,27 @@
     "class_version": 9,
     "link_map": {
         "link102": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000003",
-            "src_view_id": "output0"
-        },
-        "link103": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input0",
-            "src_id": "11111111-1111-1111-1111-000000000000",
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "in",
+            "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         },
         "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link105": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "out"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
             "dst_view_id": "input101",
-            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_id": "11111111-1111-1111-1111-000000000002",
             "src_view_id": "output0"
         }
     },
@@ -29,7 +35,7 @@
         },
         "info": {
             "author": {
-                "value": "mateusz.szczesniak@syncron.com"
+                "value": "nsingam@snaplogic.com"
             },
             "label": {},
             "notes": {
@@ -44,9 +50,17 @@
         },
         "input": {},
         "output": {
-            "11111111-1111-1111-1111-000000000002_output0": {
+            "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
-                    "value": "XML Generator - output0"
+                    "value": "CSV Parser - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000002_output1": {
+                "label": {
+                    "value": "Router - Archive"
                 },
                 "view_type": {
                     "value": "document"
@@ -74,7 +88,7 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 2,
+                "grid_x_int": 5,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -82,33 +96,9 @@
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000001": {
-                "error": {},
-                "grid_x_int": 3,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000002": {
-                "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 2,
-                "index": null,
-                "input": {},
-                "output": {},
-                "recommendation_id": null,
-                "rot_int": 0,
-                "rot_tail_int": 0,
-                "source": ""
-            },
-            "11111111-1111-1111-1111-000000000003": {
                 "error": {},
                 "grid_x_int": 1,
                 "grid_y_int": 2,
@@ -118,18 +108,49 @@
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
-            }
-        },
-        "notes": {
-            "2426d0fe-b311-4c80-9e38-9e9f07028f42": {
-                "content": "Apply XSLT transformation PoC\n\nTransform flat file to XML (XSD schema)\nApply XSLT \u2192 propagate hardcoded values for each row in the file\nnot sure how to build the transformation to achieve the result (underlying schema not known)",
-                "created": "2022-08-11T07:57:08.550Z",
-                "creator": "Mateusz Szcze\u015bniak",
-                "height": "135px",
-                "width": "1291px",
-                "x": 10,
-                "y": 10
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
             }
         },
         "pan_x_num": 0,
@@ -138,8 +159,8 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-transform-binarytodocument",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-transform-csvparser",
+            "class_version": 3,
             "instance_id": "11111111-1111-1111-1111-000000000000",
             "property_map": {
                 "error": {
@@ -157,9 +178,8 @@
                 },
                 "info": {
                     "label": {
-                        "value": "Binary to Document"
-                    },
-                    "notes": {}
+                        "value": "CSV Parser"
+                    }
                 },
                 "input": {
                     "input0": {
@@ -182,14 +202,35 @@
                     }
                 },
                 "settings": {
-                    "codec": {
-                        "value": "NONE"
+                    "charset": {
+                        "value": "Auto BOM detect"
+                    },
+                    "containsHeader": {
+                        "value": true
+                    },
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "errorPolicy": {
+                        "value": "Both"
+                    },
+                    "escapeChar": {
+                        "value": "\\"
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "ignoreEmptyStream": {
+                    "ignoreEmptyData": {
                         "value": true
+                    },
+                    "quoteCharacter": {
+                        "value": "\""
+                    },
+                    "skipLines": {
+                        "value": 0
+                    },
+                    "validateHeaders": {
+                        "value": false
                     }
                 },
                 "view_serial": 100
@@ -219,16 +260,7 @@
                     },
                     "notes": {}
                 },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
+                "input": {},
                 "output": {
                     "output0": {
                         "label": {
@@ -259,10 +291,10 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$content.split(\"\\r\\n\").slice(1).map((x, index) => {}.extend({'Row_type': x.split('|')[0]}, {'Replacing_item_code': x.split('|')[1]},{'Replacing_item_prefix': x.split('|')[2]}, {'Replaced_item_code': x.split('|')[3]},{'Replaced_item_prefix': x.split('|')[4]},{'Warehouse_code': x.split('|')[5]},{'Warehouse_group_code': x.split('|')[6]},{'Extraction_date': x.split('|')[7]},{'Inherit_stock': x.split('|')[8]},{'Replacement_multiplier': x.split('|')[9]},{'Replacement_description': x.split('|')[10]}))"
+                                            "value": "Date.parse((Date.now()).toLocaleDateTimeString({\"format\":\"yyyy-MM-dd'T'HH:mm:ss\",\"timeZone\":\"CET\"}), \"yyyy-MM-dd'T'HH:mm:ss\").getDay() == 5 ? \"full\" : \"partial\""
                                         },
                                         "targetPath": {
-                                            "value": "$payload"
+                                            "value": "type"
                                         }
                                     }
                                 ]
@@ -274,8 +306,8 @@
             }
         },
         "11111111-1111-1111-1111-000000000002": {
-            "class_id": "com-snaplogic-snaps-transform-xmlgenerator",
-            "class_version": 1,
+            "class_id": "com-snaplogic-snaps-flow-router",
+            "class_version": 2,
             "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
@@ -293,14 +325,12 @@
                 },
                 "info": {
                     "label": {
-                        "value": "XML Generator"
+                        "value": "Router"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
                 "input": {
-                    "input101": {
+                    "input0": {
                         "label": {
                             "value": "input0"
                         },
@@ -312,7 +342,15 @@
                 "output": {
                     "output0": {
                         "label": {
-                            "value": "output0"
+                            "value": "Process"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Archive"
                         },
                         "view_type": {
                             "value": "document"
@@ -320,46 +358,124 @@
                     }
                 },
                 "settings": {
-                    "defaultValue": {
-                        "value": null
+                    "execution_mode": {
+                        "value": "Validate & Execute"
                     },
-                    "editable_content": {
-                        "value": "<?xml version=\"1.0\"?>\n<Products>\n    #set ( $Product = 'Product' )\n    #set ( $ProductCode = 'ProductCode' )\n    #set ( $ProductName = 'ProductName' )\n    #set ( $Price = 'Price' )\n    #set ( $Country = 'Country' )\n        #foreach($product in $products)\n            <$Product>\n                <$ProductCode>$product.ProductCode</$ProductCode>\n                <$ProductName>$product.ProductName</$ProductName>\n                <$Price>$product.Price</$Price>\n                <$Country>$product.Country</$Country>\n            </$Product>\n    #end\n</Products>"
+                    "firstMatch": {
+                        "value": true
                     },
-                    "escapeSpecialChars": {
-                        "value": false
+                    "routes": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$Name.toLowerCase().contains($original.type)"
+                                },
+                                "outputViewName": {
+                                    "value": "Process"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "true"
+                                },
+                                "outputViewName": {
+                                    "value": "Archive"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-binary-directorybrowser",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Directory Browser"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "in": {
+                        "label": {
+                            "value": "Input view"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "out": {
+                        "label": {
+                            "value": "Output view"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "Directory": {
+                        "expression": false,
+                        "value": "sldb:///Prowess_POC/projects/shared/floder1"
+                    },
+                    "Filter": {
+                        "expression": false,
+                        "value": "*"
+                    },
+                    "advancedProperties": {
+                        "value": []
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
                     },
-                    "inboundSchema": {
+                    "ignoreEmptyResult": {
+                        "value": true
+                    },
+                    "retries": {
                         "expression": false,
-                        "value": "REPLACEMENT_SCHEMA.xsd"
+                        "value": 0
                     },
-                    "rootElement": {
+                    "retryInterval": {
                         "expression": false,
-                        "value": null
+                        "value": 1
                     },
-                    "schemaXPath": {
-                        "value": null
-                    },
-                    "tableNSContext": {
-                        "value": []
-                    },
-                    "useDefaultValue": {
-                        "value": false
-                    },
-                    "validate": {
-                        "value": false
+                    "s3SubfolderMetadataProp": {
+                        "value": true
                     }
                 },
-                "view_serial": 101
+                "view_serial": 100
             }
         },
-        "11111111-1111-1111-1111-000000000003": {
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-binary-simpleread",
             "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "account": {
                     "account_ref": {
@@ -385,7 +501,16 @@
                     },
                     "notes": {}
                 },
-                "input": {},
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
                 "output": {
                     "output0": {
                         "label": {
@@ -410,8 +535,8 @@
                         "value": "Validate & Execute"
                     },
                     "filePath": {
-                        "expression": false,
-                        "value": ""
+                        "expression": true,
+                        "value": "$Path"
                     },
                     "preventURLEncoding": {
                         "value": false

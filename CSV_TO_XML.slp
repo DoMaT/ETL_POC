@@ -400,7 +400,7 @@
                     },
                     "filePath": {
                         "expression": false,
-                        "value": "csv sample.txt"
+                        "value": ""
                     },
                     "preventURLEncoding": {
                         "value": false
